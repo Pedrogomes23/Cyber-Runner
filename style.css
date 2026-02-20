@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1a1a2e;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    color: #00f2ff;
+}
+
+#game-container {
+    width: 95vw; 
+    max-width: 600px;
+    height: 250px;
+    background: url('data:image/jpeg;base64,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') repeat-x;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 4px solid #7000ff;
+    box-shadow: 0 0 20px #7000ff;
+    animation: scrollBackground 10s linear infinite;
+}
+
+#game-container.paused { animation-play-state: paused; }
+
+@keyframes scrollBackground {
+    from { background-position: 0 0; }
+    to { background-position: -600px 0; }
+}
+
+#player {
+    width: 45px;
+    height: 45px;
+    background-image: url('cyberrunner.jpg');
+    background-size: cover;   
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 2px solid #00f2ff; 
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px #ff0055;
+}
+.obstacle {
+    width: 15px; 
+    height: 35px;
+    background-color: #00f2ff;
+    position: absolute;
+    bottom: 20px;
+    right: -50px;
+    box-shadow: 0 0 15px #00f2ff;
+    border-radius: 2px;
+}
+
+#ui {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    text-align: right;
+    pointer-events: none;
+    font-size: 14px;
+}
+
+#pause-btn {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 8px 12px;
+    background: #7000ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    font-weight: bold;
+    z-index: 100;
+}
+
+@media (max-width: 600px) {
+    #game-container {
+        height: 200px;
+    }
+    #player {
+        width: 35px;
+        height: 35px;
+        bottom: 15px;
+    }
+    .obstacle {
+        height: 30px;
+        bottom: 15px;
+    }
+    #ui {
+        font-size: 12px;
+    }
+    @keyframes jump {
+        0% { bottom: 15px; }
+        50% { bottom: 140px; }
+        100% { bottom: 15px; }
+    }
+}
+
+.jump {
+    animation: jump 0.6s ease-out;
+}
+
+@keyframes jump {
+    0% { bottom: 20px; }
+    50% { bottom: 180px; }
+    100% { bottom: 20px; }
+}
+
+#pause-overlay {
+    display: none;
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.6);
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    z-index: 50;
+}
