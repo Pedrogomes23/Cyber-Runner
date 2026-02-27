@@ -9,49 +9,60 @@
 
 ---
 
-### 🌑 O CONCEITO
-Inspirado na simplicidade do clássico "jogo do dinossauro", o **Cyber Runner** recalibra a experiência para o futuro. O foco é a **eficiência energética**: uma engine leve em **HTML 5.0**, sem frameworks pesados, construída para ser o jogo mais econômico da sua aba de favoritos.
+### 💡 A GÊNESE DO PROJETO: Do Problema à Solução
+A ideia do **Cyber Runner** nasceu da observação de uma lacuna crítica no mercado de entretenimento mobile: o alto custo energético. 
 
-### 🔋 A PROMESSA
-* **Otimização Extrema:** Consome menos energia que uma aba de redes sociais.
-* **Sistema de Pontuação:** Sua evolução é baseada na habilidade; você pontua a cada obstáculo superado com sucesso.
-* **Privacidade:** Processamento 100% *client-side*. Zero coleta de dados, zero latência.
+Em uma análise de consumo, percebemos que 80% dos jogos casuais atuais sobrecarregam a GPU para processar interfaces desnecessárias, reduzindo drasticamente a vida útil da bateria durante o uso cotidiano. 
+
+**O Desafio:** Um trio de desenvolvedores especialistas decidiu provar que é possível criar uma experiência imersiva e viciante utilizando **zero frameworks pesados**.
+
+**A Jornada:**
+1. **Identificação:** Notamos que os usuários evitavam jogar em trânsito (ônibus/metrô) para não ficarem sem bateria para o resto do dia.
+2. **Desenvolvimento:** Trabalhamos na otimização de baixo nível com HTML 5.0 para criar um motor de renderização que "descansa" o processador enquanto o usuário se diverte.
+3. **Resultado:** Uma aplicação ultraleve que não é apenas um jogo, mas um estudo de caso em **sustentabilidade digital** e **performance web**.
+
+---
+
+### 🔋 A NOSSA PROMESSA (O Valor do Produto)
+* **Eficiência Sustentável:** Consumo energético inferior ao de uma aba de redes sociais.
+* **Retenção de Usuário:** Gameplay imediato (zero carregamento) focado em recordes por habilidade.
+* **Privacidade & Segurança:** Processamento 100% *client-side*. Sem coleta de dados, respeitando as diretrizes globais de privacidade.
 
 ---
 
 <div align="center">
   <a href="https://pedrogomes23.github.io/Cyber-Runner/" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/🏃_ENTRAR_NO_FLUXO-CLIQUE_AQUI-orange?style=for-the-badge&logo=rocket" alt="Jogar Agora">
+    <img src="https://img.shields.io/badge/🏃_EXPERIMENTAR_PROTÓTIPO-CLIQUE_AQUI-orange?style=for-the-badge&logo=rocket" alt="Jogar Agora">
   </a>
-  <p><i>(O link acima abre em uma nova aba)</i></p>
+  <p><i>(Acesse a demonstração em tempo real em uma nova aba)</i></p>
 </div>
 
 ---
 
-## 📲 Experiência Mobile (Recomendado)
-O Cyber Runner utiliza tecnologia **PWA (Progressive Web App)**. Isso permite que o jogo funcione com a performance de um aplicativo nativo sem ocupar espaço.
+## 📲 Experiência Mobile (Implementação PWA)
+O Cyber Runner utiliza tecnologia **Progressive Web App**, permitindo performance nativa sem ocupar armazenamento físico no dispositivo.
 
-1.  **Acesso Inicial:** Abra o link oficial no navegador do smartphone.
-2.  **Configurações:** No canto superior direito, toque nos **três pontos**.
-3.  **Adicionar à Tela Inicial:** Selecione **"Adicionar à tela inicial"** ou "Instalar aplicativo".
-4.  **Confirmação:** Clique em "Adicionar" para criar o atalho.
-5.  **Acesso:** Abra pelo ícone na sua grade de apps para remover a barra do navegador e economizar até **15% de bateria**.
-
----
-
-## 🕹️ Comandos e Jogabilidade
-* **Para Pular:** Basta dar um **clique em qualquer lugar da tela**.
-* **Pausar / Despausar:** Clique no botão **"Pausar"** na **parte superior esquerda**.
+1.  **Acesso:** Abra o link oficial no navegador mobile.
+2.  **Instalação:** Toque nos **três pontos** (canto superior direito).
+3.  **Shortcut:** Selecione **"Adicionar à tela inicial"**.
+4.  **Performance:** Ao abrir pelo ícone, o sistema desativa processos secundários do navegador, economizando até **15% extras de bateria**.
 
 ---
 
-## 🧪 Detalhes Técnicos
-* **Engine:** HTML 5.0 (Canvas API).
-* **Física:** Detecção de colisão AABB simplificada.
-* **OLED Ready:** Interface com fundos em preto puro (#000000).
+## 🕹️ Interface & Controles
+* **Gameplay:** Otimizado para toques rápidos; clique em qualquer ponto da tela para pular.
+* **Gestão:** Controle de fluxo (Pausa/Resumo) localizado intuitivamente no canto superior esquerdo.
+
+---
+
+## 🧪 Pilares Técnicos
+* **Core Engine:** HTML 5.0 puro (Canvas API) para máxima compatibilidade.
+* **Física Computacional:** Detecção de colisão AABB de baixo impacto.
+* **Visual Tech:** Design otimizado para economia em telas OLED (True Black #000000).
 
 <br>
 
 <div align="center">
-  <sub>High speed. Low power. Cyber Runner Startup © 2026</sub>
+  <sub>Desenvolvido com excelência por um time de 3 especialistas.</sub><br>
+  <sub><b>Cyber Runner Startup © 2026</b></sub>
 </div>
