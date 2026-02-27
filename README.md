@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Readme Cyber runer</title>
-</head>
-<body>
-   <div align="center">
+<div align="center">
   <h1>⚡ CYBER RUNNER</h1>
   <p><i>"A diversão não deveria custar sua bateria."</i></p>
 
@@ -28,7 +20,7 @@ Inspirado na simplicidade do clássico "jogo do dinossauro", o **Cyber Runner** 
 ---
 
 <div align="center">
-  <a href="(https://pedrogomes23.github.io/Cyber-Runner/)" target="_blank" rel="noopener noreferrer">
+  <a href="https://pedrogomes23.github.io/Cyber-Runner/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🏃_ENTRAR_NO_FLUXO-CLIQUE_AQUI-orange?style=for-the-badge&logo=rocket" alt="Jogar Agora">
   </a>
   <p><i>(O link acima abre em uma nova aba)</i></p>
@@ -56,11 +48,10 @@ O Cyber Runner utiliza tecnologia **PWA (Progressive Web App)**. Isso permite qu
 ## 🧪 Detalhes Técnicos
 * **Engine:** HTML 5.0 (Canvas API).
 * **Física:** Detecção de colisão AABB simplificada.
+* **OLED Ready:** Interface com fundos em preto puro (#000000).
 
 <br>
 
 <div align="center">
   <sub>High speed. Low power. Cyber Runner Startup © 2026</sub>
 </div>
-</body>
-</html>
