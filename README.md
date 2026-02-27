@@ -28,7 +28,7 @@ Inspirado na simplicidade do clássico "jogo do dinossauro", o **Cyber Runner** 
 ---
 
 <div align="center">
-  <a href="URL_DO_SEU_JOGO_AQUI" target="_blank" rel="noopener noreferrer">
+  <a href="(https://pedrogomes23.github.io/Cyber-Runner/)" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🏃_ENTRAR_NO_FLUXO-CLIQUE_AQUI-orange?style=for-the-badge&logo=rocket" alt="Jogar Agora">
   </a>
   <p><i>(O link acima abre em uma nova aba)</i></p>
@@ -56,7 +56,6 @@ O Cyber Runner utiliza tecnologia **PWA (Progressive Web App)**. Isso permite qu
 ## 🧪 Detalhes Técnicos
 * **Engine:** HTML 5.0 (Canvas API).
 * **Física:** Detecção de colisão AABB simplificada.
-* **OLED Ready:** Interface com fundos em preto puro (#000000).
 
 <br>
 
