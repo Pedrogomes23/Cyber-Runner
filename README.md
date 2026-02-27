@@ -6,19 +6,19 @@
     <title>Readme Cyber runer</title>
 </head>
 <body>
-    <div align="center">
+   <div align="center">
   <h1>⚡ CYBER RUNNER</h1>
   <p><i>"A diversão não deveria custar sua bateria."</i></p>
 
   <img src="https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/Engine-Vanilla_JS-yellow?style=for-the-badge" alt="Engine">
+  <img src="https://img.shields.io/badge/Engine-HTML_5.0-orange?style=for-the-badge" alt="Engine">
   <img src="https://img.shields.io/badge/Platform-Mobile_PWA-blueviolet?style=for-the-badge" alt="Platform">
 </div>
 
 ---
 
 ### 🌑 O CONCEITO
-Inspirado na simplicidade do clássico "jogo do dinossauro", o **Cyber Runner** recalibra a experiência para o futuro. O foco é a **eficiência energética**: uma engine leve, sem frameworks pesados, construída para ser o jogo mais econômico da sua aba de favoritos.
+Inspirado na simplicidade do clássico "jogo do dinossauro", o **Cyber Runner** recalibra a experiência para o futuro. O foco é a **eficiência energética**: uma engine leve em **HTML 5.0**, sem frameworks pesados, construída para ser o jogo mais econômico da sua aba de favoritos.
 
 ### 🔋 A PROMESSA
 * **Otimização Extrema:** Consome menos energia que uma aba de redes sociais.
@@ -54,7 +54,7 @@ O Cyber Runner utiliza tecnologia **PWA (Progressive Web App)**. Isso permite qu
 ---
 
 ## 🧪 Detalhes Técnicos
-* **Engine:** HTML5 Canvas 2D Otimizado.
+* **Engine:** HTML 5.0 (Canvas API).
 * **Física:** Detecção de colisão AABB simplificada.
 * **OLED Ready:** Interface com fundos em preto puro (#000000).
 
